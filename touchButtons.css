@@ -1,0 +1,63 @@
+#touchButtonsContainer {
+    position: absolute;
+    left: 10px;
+    bottom: 0.5in;
+    margin: 0;
+    padding: 0;
+}
+
+.buttonsContainer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.touchButton{
+    margin: 0.02in;
+    padding: 0;
+    background-size: cover;
+    float: left;
+    width: 2in;
+    height: 1.5in;
+}
+
+.paddingButton {
+    width: 2in;
+    margin: 0.02in;
+    height: 1.5in;
+    float: left;
+}
+
+#upButton{
+
+    background: url('sprites/arrow_up.png') center no-repeat rgba(80, 80, 80, 0.5);
+    background-size: 0.7in 0.5in;
+    border-top-left-radius: 0.2in;
+    border-top-right-radius: 0.2in;
+}
+
+
+#leftButton{
+
+    background: url('sprites/arrow_left.png') center no-repeat rgba(80, 80, 80, 0.5);
+    background-size: 0.5in 0.7in;
+    border-top-left-radius: 0.2in;
+    border-bottom-left-radius: 0.2in;
+}
+
+
+#downButton{
+
+    background: url('sprites/arrow_down.png') center  no-repeat rgba(80, 80, 80, 0.5);
+    background-size: 0.7in 0.5in;
+}
+
+
+#rightButton{
+
+    background: url('sprites/arrow_right.png') center no-repeat rgba(80, 80, 80, 0.5);
+    background-size: 0.5in 0.7in;
+    float: left;
+    border-top-right-radius: 0.2in;
+    border-bottom-right-radius: 0.2in;
+}
